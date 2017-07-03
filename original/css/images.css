@@ -1,0 +1,9 @@
+.top {
+	background-image: url("../imgs/Guelph_Johnston_Hall.jpg");
+	background-color: #cccccc;
+	background-size: cover;
+	display: table;
+	text-align: center;
+	height: auto;
+	max-width: 100%;
+}
