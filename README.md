@@ -5,7 +5,7 @@ This is the repository for my website being used for my co-op workterm reports.
 ## Index Theme:
 [Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/) is a responsive, one page portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). The theme features multiple content sections with an off canvas navigation menu.
 
-## Website Theme Basics:
+# Website Theme Basics:
 ## Start Bootstrap Creator
 
 Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
