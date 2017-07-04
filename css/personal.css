@@ -1,0 +1,30 @@
+.boxes h1 {
+	background: rgb(64,64,64);
+	margin: auto;
+	color: red;
+	width: 5.7em;
+}
+
+.boxes h3 {
+	background: rgb(64,64,64);
+	background-size: 100px 100px;
+	margin: auto;
+	color: yellow;
+	width: 32.0em;
+}
+
+.coop {
+	color: rgb(121, 113, 236);
+}
+
+#evertz .text {
+	position: relative;
+	bottom: 30px;
+	left:0px;
+	visibility:hidden;
+}
+
+#evertz:hover .text {
+	visibility:visible;
+	color: red;
+}
