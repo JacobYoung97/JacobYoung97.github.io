@@ -1,20 +1,16 @@
 .boxes h1 {
-	background: rgb(64,64,64);
-	margin: auto;
-	color: red;
-	width: 5.7em;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #fff;
 }
 
 .boxes h3 {
-	background: rgb(64,64,64);
-	background-size: 100px 100px;
-	margin: auto;
-	color: yellow;
-	width: 32.0em;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #fff;
 }
 
 .coop {
-	color: rgb(121, 113, 236);
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #000;
 }
 
 #evertz .text {
