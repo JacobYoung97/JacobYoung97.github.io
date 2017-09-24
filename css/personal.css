@@ -9,10 +9,10 @@
 }
 
 .text-vertical-center h2 {
-    margin: 0;
-    padding: 0;
-    font-size: 2.5em;
-    font-weight: 700;
+  margin: 0;
+  padding: 0;
+  font-size: 2.5em;
+  font-weight: 700;
 }
 
 .highlight-coop {
@@ -22,19 +22,24 @@
 
 span.text-content {
   background: rgba(0,0,0,0);
-  color: white;
+  color: yellow;
   cursor: pointer;
   display: table;
-  height: 150px;
+  height: 100%;
   left: 0;
   position: absolute;
-  top: 0;
-  width: 150px;
+  margin: auto;
+  top: 35%;
+  width: 100%;
   opacity: 0;
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
+  -webkit-text-stroke-width: 2.7px;
+  -webkit-text-stroke-color: #000;
+  font-size: 2.5em;
+  font-weight: 700;
 }
 
 span.text-content span {
