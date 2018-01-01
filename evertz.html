@@ -37,25 +37,25 @@
     <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
+            <div style="background-color: black;" class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="index.html">Jacob Young</a>
+                <a class="navbar-brand" style="color: yellow;" href="index.html">Jacob Young</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div style="background-color: black;" class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a style="color: yellow;" href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a style="color: yellow;" href="about.html">About</a>
                     </li>
                     <li>
-                        <a href="evertz.html">Evertz Microsystems</a>
+                        <a style="color: yellow;" href="evertz.html">Evertz Microsystems</a>
                     </li>
                 </ul>
             </div>
@@ -66,14 +66,14 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('img/post-bg.jpg')">
+    <header class="intro-header" style="background-color: black;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="post-heading">
+                    <div class="post-heading" style="color: yellow;">
                         <h1>Evertz Microsystems Limited (S17 &amp; F17)</h1>
                         <h2 class="subheading">Electronic systems manufacturer for the TV and film industry</h2>
-                        <span class="meta"><a href="about.html">Jacob Young</a></span>
+                        <!-- <span class="meta"><a href="about.html" style="color: yellow;">Jacob Young</a></span> -->
                     </div>
                 </div>
             </div>
@@ -86,6 +86,10 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" id="post-contents">
                     
+                    <a>
+                        <img class="img-responsive" src="img/Evertz-LOGO.jpg" alt="">
+                    </a>
+
                     <h2 class="section-heading">Introduction</h2>
 
                     <p>My name is Jacob Young. I am a second/third year Computer Science Student (during this work term) with a minor in Mathematics from the University of Guelph. This page will document my 8 month work term (May - December, 2017) at Evertz Microsystems in Burlington, Ontario, Canada. It is my goal to explain the numerous ways that this work term has made me grow as both a Computer Science student and as an employee.</p>
@@ -98,7 +102,7 @@
                         <a href="http://www.canadianbusiness.com/lists-and-rankings/best-managed-companies/platinum-winners/">Canada's 50 Best Managed Companies</a> 
                     for 8+ years in a row.</p>
 
-                    <a href="#">
+                    <a>
                         <img class="img-responsive" src="img/exeServer.jpg" alt="">
                     </a>
                     <span class="caption text-muted">A server room with Evertz products. Some of them include EXE router and some EMX Router Multiframes.</span>
@@ -109,49 +113,60 @@
                         <a href="http://www.evertz.com/solutions/vistalink">VistaLINK&reg; PRO</a> (refered to as VLPro hereafter)
                     software. My overall role and purpose for this was to debug the many devices/products that can be connected to the software; this was done so I understood how the software has been developed and the functionality while in use. There were a few versions of the program; all written in Java. When updating VLPro in one version, the other two also had to be updated. The changes I made in the development version were shared to other members of the VLPro group using version control software and creating patches for the released version to clients.</p>
 
-                    <p>After the first few weeks of product support, my role at Evertz started to expand to adding new features and solutions. Some of these include: UI testing suite in Squish, mockito and JUnit testing of web application, product support and new components for the VLPro system, creating and editing an application made in Spring and then Spring/Angular, adding features and helping set up a new version of a license management system in JSP and then Spring, and creating an internal FAQ page for a program to help with VLPro. These tasks I was assigned taught me how to learn new technologies that I might not have had a chance to learn about in school.</p>
+                    <p>After the first few weeks of product support, my role at Evertz started to expand to adding new features and solutions. <br><br> Some of these include: <br>
+                        - UI testing suite in <a href="https://www.froglogic.com/squish/">Squish</a> for autogenerated GUI components <br>
+                        - using <a href="http://site.mockito.org/">Mockito</a> and <a href="http://junit.org/junit4/">JUnit</a> testing of web application backends and functionality <br>
+                        - adding new components for the VLPro system as issues arose <br>
+                        - editing an application made in the <a href="https://projects.spring.io/spring-framework/">Spring Framework</a> and then creating/editing the same application with a Spring backend and <a href="https://angular.io/">Angular</a> frontend <br>
+                        - adding features and helping set up a new version of another application in JavaServer Pages (JSP) and then the Spring Framework<br>
+                        - creating an internal FAQ page in JSP for a program to help with VLPro <br><br>
+
+                    These tasks I was assigned taught me how to learn new technologies independently that I might not have had a chance to learn about in school.</p>
 
                     <h2 class="section-heading">Goals</h2>
 
-                    <p>While at Evertz Microsystems, my goals mainly consisted of learning coding practices with some soft skills like communication and working in teams. My goals were: learn more about the Java programming language, learn how to interface code with the Internet, learn how to transfer code between frameworks, being able to orally communicate what I had written, and to write effective comments about my code. My supervisor helped me immensely with reaching my goals. He would assign tasks that were extremely relevant like product support to learn more about Java, tasks for web based applications written in multiple frameworks, as well as giving me the opportunity to explain what I had done orally and in the comments.</p>
+                    <p>While at Evertz Microsystems, my goals mainly consisted of learning coding practices with some soft skills like communication and working in teams. My goals were: learn more about the Java programming language, learn how to interface code with the Internet, learn how to transfer code between frameworks, being able to orally communicate what I had written, and to write effective comments about my code. My supervisor helped me immensely with reaching my goals. He would assign tasks that were extremely relevant like product support to learn more about Java, tasks for web based applications written in multiple frameworks, as well as giving me the opportunity to explain what I had done orally and in the comments of the code.</p>
 
                     <h2 class="section-heading">Conclusions</h2>
 
-                    <p>Evertz Microsystems was a very good company to work at for my first co-op placements. They helped me to improve my coding skills in languages that I was already familiar with while putting trust in me to write code in frameworks and languages that were new to me. This work placement made me more comfortable with jumping headfirst into writing/coding applications in unfamiliar languages. I feel like I could learn any new framework/language if given the opportunity.</p>
+                    <p>Evertz Microsystems was a very good company to work at for my first co-op placements. They helped me to improve my coding skills in the languages that I was already familiar with while putting trust in me to write code in frameworks, technologies, and languages that were new to me. This work placement made me more comfortable with jumping headfirst into writing/coding applications in unfamiliar languages. I feel like I could learn any new framework/language if given the opportunity.</p>
 
                     <!-- Pictures here eventually -->
                     <h4 class="text-center">Improved Technologies (Languages, Frameworks, etc.)</h4>
                     <ul class="list-inline text-center">
                         <li>
-                            <span class="fa-stack fa-lg">
-                                <img class="img-responsive" src="img/Java.png" title="Java">
-                            </span>
+                            Java
                         </li>
                         <li>
-                            <span class="fa-stack fa-lg">
-                                <img class="img-responsive" style="margin-top: 18px;" src="img/python.png" title="Python">
-                            </span>
+                            Python
                         </li>
                         <li>
-                            <span class="fa-stack fa-lg">
-                                <img class="img-responsive" style="margin-top: 18px;" src="img/HTML5.png" title="HTML">
-                            </span>
+                            HTML
                         </li>
                         <li>
-                            <span class="fa-stack fa-lg">
-                                <img class="img-responsive" style="margin-top: 8px;" src="img/css3.png" title="HTML">
-                            </span>
+                            CSS
                         </li>
                     </ul>
 
-                    <br><br>
                     <h4 class="text-center">New Technologies (Languages, Frameworks, etc.)</h4> <!-- Spring Boot, Angular, JSP, Squish, JavaScript -->
                     <ul class="list-inline text-center">
                         <li>
+                            JavaScript
                         </li>
                         <li>
+                            Squish by Froglogic
                         </li>
                         <li>
+                            Spring Framework
+                        </li>
+                        <li>
+                            Angular Framework (Angular 2+)
+                        </li>
+                        <li>
+                            JavaServer Pages (JSP)
+                        </li>
+                        <li>
+                            Mockito and JUnit
                         </li>
                     </ul>
 
