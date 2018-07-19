@@ -1,6 +1,7 @@
 # JacobYoung97.github.io
 
 This is the repository for my website being used for my co-op workterm reports.
+The text below is the copyright for the various pages of the website.
 
 ## Index Theme:
 [Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/) is a responsive, one page portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). The theme features multiple content sections with an off canvas navigation menu.
