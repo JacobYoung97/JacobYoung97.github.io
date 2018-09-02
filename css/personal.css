@@ -50,4 +50,8 @@ span.text-content span {
 
 a:hover span.text-content {
 	opacity: 1;
-} 
+}
+
+#perkinElmer:hover {
+  box-shadow: 3px 5px blue;
+}
